@@ -1,7 +1,7 @@
 {
   "name": "example-one",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -15,6 +15,9 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.33.0",
+    "@nx/js": "^21.5.2",
+    "@swc-node/register": "^1.11.1",
+    "@swc/core": "^1.13.5",
     "@types/react": "^19.1.10",
     "@types/react-dom": "^19.1.7",
     "@vitejs/plugin-react": "^5.0.0",
@@ -22,10 +25,10 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.3.0",
+    "nx": "21.5.2",
     "typescript": "~5.8.3",
     "typescript-eslint": "^8.39.1",
-    "vite": "^7.1.2",
-    "nx": "21.5.2"
+    "vite": "^7.1.2"
   },
   "nx": {}
 }
